@@ -1,6 +1,5 @@
 def caesar_cipher(string_to_encode, cipher_parameter)
   codes = ('a'..'z').zip((0..25)).to_h
-
   encoded_string = ''
 
   string_to_encode.split('').each do |element|
